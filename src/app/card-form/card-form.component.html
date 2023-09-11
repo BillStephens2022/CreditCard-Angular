@@ -1,5 +1,6 @@
 <form [formGroup]="cardForm">
-    <input formControlName="name" />
+    <app-input [control]="cardForm.controls.name" formControlName="name"></app-input>
+
 
 </form>
 
