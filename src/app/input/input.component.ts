@@ -8,8 +8,15 @@ import { FormControl } from '@angular/forms';
 })
 export class InputComponent {
   @Input() control: FormControl;
+  @Input() label: string;
 
   constructor() {
     this.control = new FormControl();
+    this.label = "";
+  }
+
+  showErrors() {
+    const { dirty, touched, errors } = this.control;
+    return dirty && touched && errors;
   }
 }
