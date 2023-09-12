@@ -31,4 +31,8 @@ export class CardFormComponent {
   onSubmit() {
     console.log('form was submitted!');
   }
+
+  onResetClick() {
+    this.cardForm.reset();
+  }
 }
