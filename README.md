@@ -2,7 +2,7 @@
 
   ## Description
 
-  Application build using Angular where the user enters credit card details into the form  and the card is visualized on the screen.  This is a demonstration of using reactive forms and form controls in Angular to ensure a user enters details correctly (i.e. in correct format for a credit card number, expiration date, etc) before a form can be submitted.  Built as part of an Angular tutorial.
+  Application build using Angular where the user enters credit card details into the form and the card is visualized on the screen.  This is a demonstration of using reactive forms and form controls in Angular to ensure a user enters details correctly (i.e. in correct format for a credit card number, expiration date, etc) before a form can be submitted.  Built as part of an Angular tutorial.
 
   Screenshot of app:
   ![app screenshot](/src/assets/images/screenshot.png)
@@ -18,7 +18,7 @@
   
   ## Installation
   
-  Deployed URL: 
+  Deployed URL: https://billstephens2022.github.io/CreditCard-Angular/
   
   ## Usage
   
